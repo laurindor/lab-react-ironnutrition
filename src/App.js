@@ -1,4 +1,4 @@
-import React, { useState }from 'react';
+import React from 'react';
 import './App.css';
 import 'bulma/css/bulma.css';
 import FoodList from './Components/FoodList';
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
         <h1>IronNutrition</h1>
         <FoodList/>
-        
+
     </div>
   );
 }

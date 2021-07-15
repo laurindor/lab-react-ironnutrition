@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 const FoodBox = (props) => {
@@ -23,7 +23,7 @@ const FoodBox = (props) => {
       <div className="media-right">
         <div className="field has-addons">
           <div className="control">
-            <input className="input" type="number" value="1" />
+            <input className="input" type="number" defaultValue="1" />
           </div>
           <div className="control">
             <button className="button is-info">
